@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="C:\Users\vishwa\Desktop\IIP_Project\login_style.css">
+</head>
+<body background="C:\Users\vishwa\Desktop\IIP_Project\Login_background.jpg">
+    <div class="center">
+        <h1>Login</h1>
+        <form method="post">
+        
+        <div class="txt_field">
+            <input type="text" name="user" required>
+            <span></span>
+            <label> Username </label>
+        </div>
+        <div class="txt_field">
+            <input type="text" name="pass" required>
+            <span></span>
+            <label> Password </label>
+        </div>
+        <div class="pass">Forgot Password?
+
+
+
+             <p><?php echo $err; ?></p>
+        </div>
+        <input type="submit" value="login" name="submit"> 
+        <div class="signup_link">
+            Not a member? <a href="#">SignUp</a>
+        </div>
+        
+        </form>
+    </div>
+
+    
+</body>
+</html>
