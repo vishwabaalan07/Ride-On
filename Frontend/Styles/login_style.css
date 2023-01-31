@@ -3,10 +3,10 @@ body
 	margin:0;
 	padding:0;
 	font-family:montserrat;
-	background: linear-gradient(120deg,#8e44ad);
+/*	background: linear-gradient(120deg,#8e44ad);*/
 	height:100vh;
 	overflow: hidden;
-	background-image:url("C:/Users/vishwa/Desktop/IIP_Project/login_background.jpg");
+	background-image:url("C:/Users/vishwa/Desktop/IIP_Project/Frontend/Images/Login_background.jpg");
   background-repeat:no-repeat;
   background-size: cover;
 
@@ -15,12 +15,13 @@ body
 {
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 25%;
 	transform: translate(-50%,-50%);
 	width: 400px;
 	background: white;
 	border-radius: 10px;
 	opacity: 0.5;
+/*	margin-right:-700px;*/
 }
 .center h1{
 	text-align: center;

@@ -1,0 +1,70 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image:url("C:/Users/vishwa/Desktop/IIP_Project/Frontend/Images/Sign_Up_background.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position-y: -100px;
+}
+
+.signup-form {
+  background-color:#C7B7A4 ;
+/*  background-color: #81543c;*/
+/*background-color: #1EE211E;*/
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 5% auto;
+  padding: 3em;
+  width: 400px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  text-shadow: 1px 1px #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-top: 1em;
+  width: 100%;
+}
+
+label {
+  color: #333;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #33cc33;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1em;
+  padding: 1em;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #28a428;
+}
